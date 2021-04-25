@@ -1,0 +1,40 @@
+.superhero {
+  background-color: lightgray;
+  text-align: center;
+  min-width: max-content;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  height: auto;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.charts {
+  width: 100%;
+}
+
+input {
+  background-color: lightgray;
+  border: 2px solid darkgray;
+  width: 300px;
+  height: 30px;
+}
+
+button {
+  height: 36px;
+  width: auto;
+  background-color: lightgray;
+  border: 2px solid darkgray;
+}
+
+body {
+  background-color: gray;
+}
+
+.superhero-name {
+  font-weight: bold;
+}

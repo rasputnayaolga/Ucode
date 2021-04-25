@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="filters">
+        <span onclick="showAllMovies(this)" class="active" id="all">All</span>
+        <span onclick="showFavoriteMovies(this)" id="favorite">Favorite</span>
+    </div>
+    <div class="wrapper">
+
+        <div class="allMovies">
+            <ul>
+                <li class="active" onclick="changeMovie('Knockin\' on Heaven\'s Door')">Knockin' on Heaven's Door</li>
+                <li onclick="changeMovie('Soul')">Soul</li>
+                <li onclick="changeMovie('Deadpool')">Deadpool</li>
+                <li onclick="changeMovie('Charlie and the Chocolate Factory')">Charlie and the Chocolate Factory</li>
+                <li onclick="changeMovie('8 Mile')">8 Mile</li>
+                <li onclick="changeMovie('Angry Birds 2')">Angry Birds 2</li>
+            </ul>
+        </div>
+        <div class="movie" id="1">
+            <div class="info">
+                <div class="like" onclick="toogleMovieFavorite()">
+                    <a href="#">
+                        <svg id="likeIcon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px"
+                            viewBox="0 0 15 15" style="enable-background:new 0 0 15 15;" xml:space="preserve"
+                            fill="#D3D3D3">
+                            <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75
+	C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z" />
+                        </svg>
+                    </a>
+                </div>
+                <div>
+                    <p id="movieName">Knockin' on Heaven's Door</p>
+                    <p id="date">February 20, 1997</p>
+                </div>
+                <div class="cast">
+                    <span>Til Schweiger</span>
+                    <span>Jan Josef Liefers</span>
+                    <span>Moritz Bleibtreu</span>
+                </div>
+                <div>
+                    <p id="info">Two patients (Martin Brest and Rudi Wurlitzer) meet in a hospital, just after learning
+                        that both
+                        have an untreatable disease. They start talking about their death that is to come very soon.
+                        When they find a bottle of tequila, Martin finds out that Rudi has never seen the sea. Martin
+                        tells Rudi that all they talk about in Heaven is how beautiful the sea is.
+
+                        Drunk and still in their pajamas, they steal a baby blue Mercedes-Benz W113 classic roadster and
+                        go for their last mission - to see the sea. The car belongs to a crime boss. They rob several
+                        small shops, only to find that there is a million deutsche marks in cash in the trunk of their
+                        car.</p>
+                </div>
+            </div>
+            <div class="image">
+                <img src="assets/images/knockin.jpg">
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

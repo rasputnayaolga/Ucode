@@ -1,0 +1,90 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.allMovies {
+    background-color: rgb(255, 241, 241);
+    border: 2px solid grey;
+    border-radius: 5px 0 0 5px;
+    min-width: 300px;
+}
+
+.allMovies ul {
+    white-space: nowrap;
+    list-style-type: none;
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px;
+}
+
+.allMovies ul li {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+
+.movie {
+    display: flex;
+    background-color: rgb(255, 241, 241);
+    border: 2px solid grey;
+    border-radius: 0 5px 5px 0;
+    padding: 20px;
+}
+
+.movie img {
+    height: 500px;
+    width: 350px;
+    padding-left: 10px;
+}
+
+#info {
+    text-align: left;
+}
+
+.cast {
+    display: flex;
+    flex-direction: row;
+}
+
+.filters span, .cast span {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    margin: 4px;
+    border-radius: 15px;
+}
+
+.filters span {
+    width: 60px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.like img {
+    width: 30px;
+    height: 30px;
+}
+
+.like {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 20px;
+}
+
+li.active {
+    border-left: 2px solid blue;
+}
+
+.filters {
+    margin: 10px;
+}
+
+.filters span.active {
+    background-color: turquoise;
+}
+
+#likeButton.active {
+    background-color: red;
+}

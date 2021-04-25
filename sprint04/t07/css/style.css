@@ -1,0 +1,48 @@
+.form {
+    display: flexbox;
+    background-color: rgb(97, 95, 95);
+    padding: 50px;
+}
+
+.form__group {
+    padding: 20px;
+}
+
+.form img {
+    width: 130px;
+    height: 130px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    background-color: rgb(72, 170, 146);
+    color: white;
+    text-align: center;
+}
+
+label {
+    color: white;
+}
+
+input {
+    color: #009688;
+    background-color: rgb(97, 95, 95);
+    border: none;
+    border-bottom: 2px solid white;
+    height: 35px;
+    text-align: left;
+    width: calc(100% - 55px);
+}
+
+button {
+    border: none;
+    background-color: white;
+    color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+}

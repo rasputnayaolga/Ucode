@@ -1,0 +1,47 @@
+.stone {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  transform: rotate(45deg);
+}
+
+.non-draggable {
+  border: 2px dashed darkgray;
+}
+
+#red {
+  background-color: red;
+  top: 80px;
+  left: 50px;
+}
+
+#yellow {
+  background-color: yellow;
+  top: 160px;
+  left: 50px;
+}
+
+#blue {
+  background-color: blue;
+  top: 240px;
+  left: 50px;
+}
+
+#purple {
+  background-color: purple;
+  top: 320px;
+  left: 50px;
+}
+
+#green {
+  background-color: green;
+  top: 400px;
+  left: 50px;
+}
+
+#pink {
+  background-color: pink;
+  top: 480px;
+  left: 50px;
+}
