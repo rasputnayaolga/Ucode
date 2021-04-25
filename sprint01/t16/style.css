@@ -1,0 +1,75 @@
+.parent {
+  display: block;
+  position: relative;
+  float: left;
+  line-height: 30px;
+  background-color: grey;
+  border-right: #FFF 1px solid;
+  width: 200px;
+  text-align: center;
+}
+
+.parent a {
+  margin: 10px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.parent:hover>ul {
+  display: block;
+  position: absolute;
+}
+
+.parent:hover {
+  background: red;
+}
+
+.child {
+  display: none;
+}
+
+.child li {
+  background-color: grey;
+  color: #FFFFFF;
+  line-height: 30px;
+  width: 200px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+  min-width: 10em;
+}
+
+ul ul ul {
+  left: 100%;
+  top: 0;
+}
+
+li:hover {
+  background-color: grey;
+}
+
+.parent li:hover {
+  background-color: red;
+}
+
+.expand {
+  font-size: 12px;
+  float: right;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+.name {
+  background: grey;
+}

@@ -1,0 +1,33 @@
+.week {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-family: 'Lato';
+}
+
+.data {
+    background-color: turquoise;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.day {
+    width: 80px;
+    height: 160px;
+    margin: 3px;
+}
+
+.day:hover {
+    box-shadow: 0 0 10px grey;
+}
+
+.temperature {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}

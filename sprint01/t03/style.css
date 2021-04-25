@@ -1,0 +1,22 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    height: 2em;
+}
+
+input {
+    color: green;
+}
+
+input:hover {
+    color: red;
+}
+
+button {
+    color: green;
+}
+
+button:hover {
+    color: red;
+}

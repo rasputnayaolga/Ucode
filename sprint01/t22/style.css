@@ -1,0 +1,244 @@
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: darkslategrey;
+    transition: .4s;
+    border-radius: 30px;
+}
+
+.switch input {
+    display: none
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 40px;
+    width: 40px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-color: rgb(107, 139, 107);
+    transition: 0.4s;
+    border-radius: 40px;
+}
+
+input:checked+.slider {
+    background-color: rgb(54, 54, 80);
+}
+
+input:checked+.slider:before {
+    transform: translateX(40px);
+}
+
+.choose {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.round {
+    position: absolute;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.round::before {
+    position: relative;
+    color: white;
+    left: 17px;
+    top: 15px;
+}
+
+.round::after {
+    position: relative;
+    content: "";
+    color: white;
+    left: 17px;
+    top: 15px;
+}
+
+.round::after {
+    position: relative;
+    content: "";
+    color: white;
+    left: 17px;
+    top: 15px;
+}
+
+input:checked~.round::after {
+    position: relative;
+    content: "\2713";
+    color: white;
+    left: 8px;
+    top: 6px;
+}
+
+.choose input {
+    display: none
+}
+
+.choose {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div {
+    color: lightgrey;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(39, 48, 63);
+    width: 700px;
+    height: 450px;
+    padding: 20px 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(66, 75, 94);
+    border: 1px solid lightgrey;
+    width: 550px;
+    height: 400px;
+    padding: 25px;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.sidebar {
+    margin-top: 60px;
+    height: 340px;
+    width: 90px;
+    background-color: rgb(68, 69, 105);
+    border-radius: 0 20px 20px 0;
+    position: relative;
+}
+
+img {
+    margin: 10px;
+}
+
+.Typeface {
+    margin: 20px;
+    height: 85px;
+}
+
+.Weight {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.name-weight {
+    margin: 20px;
+}
+
+.lab {
+    display: inline-block;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    background: #2b2e30;
+    border: 1px solid white;
+}
+
+input:checked+.lab::after {
+    content: " \2713 ";
+    color: rgb(0, 128, 117);
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.Size {
+    margin: 20px;
+    height: 70px;
+}
+
+.slider1 {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.DarkUI {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h1 {
+    text-align: right;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(27, 27, 27);
+}
+
+.aaa {
+    display: flex;
+    justify-content: space-between;
+}

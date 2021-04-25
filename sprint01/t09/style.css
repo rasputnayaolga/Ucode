@@ -1,0 +1,29 @@
+span {
+    position: relative;
+    top: -10px;
+    left: 10px;
+    background: white;
+    width: 100%;
+}
+
+.borders {
+    margin: 20px;
+}
+
+.container {
+    border: 2px solid grey;
+    margin: 20px;
+}
+
+.wrapper {
+    border: 2px solid grey;
+    padding: 20px;
+}
+
+.footer {
+    margin: 30px;
+}
+
+p {
+    margin: 20px;
+}

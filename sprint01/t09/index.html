@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action=" /action_page.php">
+        <div class="wrapper">
+            <div class="container">
+                <div class="about"><span>About the Superhero</span>
+                    <div class="borders">
+                        Real Name <input type="text" name="Real Name" placeholder="Superhero real name" autofocus>
+                        Superhero name <input type="text" name="Superhero name" placeholder="Superhero alias">
+                        Age <input type="number" size="3" min="1" max="999" style="1" name="Age">
+                    </div>
+
+                    <div class="borders">
+                        About <textarea name="About" placeholder="Information about the superhero, max 500 symbols"
+                            rows="5" cols="70" maxlength="500"></textarea>
+                    </div>
+                    <form action="/action_page.php">
+                        <p>Photo: <input type="file" id="Photo" name="filename"></p>
+                    </form>
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="about"><span>Powers</span>
+                    <div class="borders">
+                        <input type="checkbox" value="Telekinesis" /> Telekinesis
+                        <input type="checkbox" value="Super strength or speed" /> Super strength or speed
+                        <input type="checkbox" value="Shapeshifting" /> Shapeshifting
+                        <input type="checkbox" value="Flight" /> Flight
+                        <input type="checkbox" value="Elemental control" /> Elemental control
+                        <input type="checkbox" value="Other" /> Other
+                    </div>
+                </div>
+                <div class="borders">
+                    Level of control: <input type="range" min="1" max="10" step="1" value="1">
+                </div>
+            </div>
+            <div class="container">
+                <div class="about"><span>Origin of Powers</span>
+                    <div class="borders">
+                        <input type="radio" value="Unknown" id="1" name="answer" /> Unknown
+                        <input type="radio" value="Freak lab accident" id="2" name="answer" /> Freak lab accident
+                        <input type="radio" value="Chosen by an ancient wise being" id="3" name="answer" /> Chosen by an
+                        ancient wise being
+                        <input type="radio" value="The superhero is not human" id="4" name="answer" /> The superhero is
+                        not human
+                        <input type="radio" value="Other" id="5" name="answer" /> Other
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <input type="reset" value="CLEAR">
+                <input type="submit" value="SEND">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

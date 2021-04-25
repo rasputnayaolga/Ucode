@@ -1,0 +1,19 @@
+.japan {
+    background: rgb(211, 37, 80);
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: -62.5px;
+    margin-left: -62.5px;
+}
+.flag {
+	border:3px solid lightgrey;
+    background-color:white;
+    width: 350px;
+    height: 200px;
+    position: absolute;
+
+}

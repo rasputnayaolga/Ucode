@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Settings</h2>
+    <div class="wrapper">
+
+        <div class="container">
+            <div class="left">
+                <div class="Typeface">
+                    <p>Typeface</p>
+                    <select style="background-color: rgb(102, 105, 105); color: white;">
+                        <option value="Acunim Pro">Acunim Pro</option>
+                        <option value="Comic Sans">Comic Sans</option>
+                        <option value="Times New Roman" disabled>Times New Roman</option>
+                    </select>
+
+                </div>
+                <span class="name-weight">Weight</span>
+                <p>
+                <div class="Weight">
+                    <input type="checkbox" id="regular">
+                    <label class="lab" for="regular"></label>
+                    <span><sub>Regular</sub></span>
+                    <input type="checkbox" id="bold" />
+                    <label class="lab" for="bold"></label>
+                    <span><sub>Bold</sub></span>
+                </div>
+                </p>
+                <div class="Size">
+                    <p>Size</p>
+                    <input type="range" min="1" max="100" value="100" class="slider1" id="myRange">
+                    <p><span style="padding-right: 190px ;">A</span>
+                        <span style="font-size:40px ;">A</span></p>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="DarkUI"><span>Dark UI</span>
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="Color">
+                    <p>Color</p>
+                    <label class="choose">
+                        <input type="checkbox">
+                        <span class="round blue"></span>
+                    </label>
+
+                    <label class="choose">
+                        <input type="checkbox">
+                        <span class="round green"></span>
+                    </label>
+                    <label class="choose">
+                        <input type="checkbox">
+                        <span class="round pink"></span>
+                    </label>
+                    <label class="choose">
+                        <input type="checkbox">
+                        <span class="round yellow"></span>
+                    </label>
+                    <label class="choose">
+                        <input type="checkbox">
+                        <span class="round orange"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <img src="assets/images/artistic-brush.png"></li>
+            <img src="assets/images/user-icon.png"></li>
+            <img src="assets/images/sms-speech-bubble.png"></li>
+            <img src="assets/images/computer-screen.png"></li>
+        </div>
+    </div>
+</body>
+
+</html>

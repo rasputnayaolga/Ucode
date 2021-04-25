@@ -1,0 +1,6 @@
+
+.image:hover {
+    transition: transform;
+    transition-duration: 5s;
+    transform: rotate(-30deg);
+}

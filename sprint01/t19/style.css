@@ -1,0 +1,100 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    ;
+}
+
+h1 {
+    text-align: left;
+    font-size: 35px;
+    color: rgb(233, 139, 154);
+    margin: 20px;
+    font-weight: bolder;
+}
+
+h2 {
+    color: slategrey;
+    text-align: center;
+    font-size: 35px;
+    margin: 20px;
+    font-weight: bolder;
+}
+
+div {
+    margin: 10px;
+    padding: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    text-align: center;
+    color: slategrey;
+    padding: 30px;
+    width: 250px;
+    height: 15px;
+    margin: 5px;
+    border-radius: 100px;
+    background: white;
+    border: 1px solid slategrey;
+}
+
+input:checked+label::after {
+    content: "\2713";
+    color: white;
+}
+
+input:checked+label {
+    color: white;
+    background: rgb(26, 26, 68);
+}
+
+input:disabled+label::before {
+    background: white;
+    color: silver;
+}
+
+.data {
+    justify-content: left;
+    border: 0px;
+    border-bottom: 1px solid silver;
+    width: 100%;
+    margin: 25px;
+    padding: 10px;
+}
+
+.data1 {
+    display: flex;
+    float: left;
+    width: 100%;
+}
+
+::placeholder {
+    color: silver;
+    font-size: 15px;
+}
+
+.send {
+    display: inline-block;
+    border: 0px;
+    background-color: pink;
+    color: white;
+    height: 50px;
+    position: relative;
+    width: 100%;
+    margin: auto 25px;
+}
+
+.send:hover {
+    background-color: red;
+    transition: ease-in-out 2s;
+}

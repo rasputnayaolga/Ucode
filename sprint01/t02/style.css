@@ -1,0 +1,44 @@
+.black {
+    background-color: #020202;
+    color: #FFFFFF;
+    border-collapse: collapse;
+}
+
+.orange {
+    background-color: #FF8C00;
+}
+
+.green {
+    background-color: #90EE90;
+}
+
+.blue {
+    background-color: #7DE6E1;
+}
+
+.yellow {
+    background-color: #F7F43C;
+}
+
+.red {
+    background-color: #E52C0F;
+}
+
+.purple {
+    background-color: #A461EC;
+}
+
+.footer {
+    text-align: center;
+}
+
+img {
+    border-radius: 20px;
+    height: 120px;
+    width: 120px;
+    margin: auto;
+}
+
+td {
+    padding: 10px;
+}
