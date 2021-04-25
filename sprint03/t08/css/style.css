@@ -1,0 +1,32 @@
+
+main{
+    display: block;
+    
+}
+table {
+    width: 300px;
+    height: 400px;
+	border: 2px solid black;
+    border-collapse:separate;
+}
+th {
+	background-color: rgb(233, 194, 194);
+	cursor: pointer;
+}
+td {
+    background-color: rgb(211, 208, 208);
+}
+#notification {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	background-color: gray;
+	padding: 10px 30px 10px 30px;
+	border-radius: 19px;
+}
+
+#placeholder {
+	display: flex;
+	justify-content: center;
+	
+}
